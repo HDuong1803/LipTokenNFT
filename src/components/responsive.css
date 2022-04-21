@@ -1,0 +1,54 @@
+@media (max-width: 866px) {
+  nav {
+    overflow: scroll;
+    height: 50px;
+    transition: height 2s !important;
+  }
+  nav a {
+    padding-bottom: 15px;
+    min-width: fit-content;
+  }
+
+  nav:hover, nav:focus {
+    height: 230px;
+  }
+
+  .symbol {
+    margin: 0 auto !important;
+    padding-top: 12px;
+  }
+
+  .symbol p {
+    text-align: center !important;
+  }
+
+  .button__header {
+    padding-top: 12px;
+    flex-wrap: wrap;
+  }
+  ul.navbar-nav.px-3.d-flex.flex-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .transfer_container {
+    min-width: 100% !important;
+    padding: 0 24px;
+  }
+
+  .transfer_container .input_container {
+    flex-direction: column;
+  }
+
+  .transfer_container .input_container p {
+    text-align: left;
+    margin: unset;
+    padding-bottom: 8px;
+    width: 100%;
+  }
+
+  .transfer_container .input_container select, input {
+    width: 100% !important;
+  }
+}
